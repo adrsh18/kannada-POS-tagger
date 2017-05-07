@@ -7,11 +7,11 @@ A Parts of Speech tagger for Kannada
 
 **Libraries Used**: gensim, numpy, tensorflow
 
-Sequence of execution:
+**Sequence of execution**:
 1. feature-extractor.ipynb - generates feature and label files which may exceed 100 MB.
 2. pos-tagger.ipynb - trains on the features and reports performance on test set.
 
-Performance:
+**Performance**:
 
 |          Class   | precision  | recall | f1-score  | support |
 | ---------------- |:----------:|:------:|:---------:|:--------|
