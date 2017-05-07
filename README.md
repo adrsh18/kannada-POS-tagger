@@ -1,4 +1,4 @@
-# Kasthuri
+# ಕಸ್ತೂರಿ (Kasthuri) 
 A Parts of Speech tagger for Kannada
 
 Sequence of execution:
