@@ -1,6 +1,12 @@
 # ಕಸ್ತೂರಿ (Kasthuri) 
 A Parts of Speech tagger for Kannada
 
+##### What was used?
+1. Word2Vec to extract features from words
+2. Linear Chain CRF to learn tagging rules
+
+**Libraries Used**: gensim, numpy, tensorflow
+
 Sequence of execution:
 1. feature-extractor.ipynb - generates feature and label files which may exceed 100 MB.
 2. pos-tagger.ipynb - trains on the features and reports performance on test set.
